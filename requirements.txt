@@ -1,0 +1,36 @@
+# Core dependencies
+openai-whisper>=20231117
+sounddevice>=0.4.6
+numpy>=1.24.0
+scipy>=1.10.0
+
+# GUI
+tkinter  # Usually built-in with Python
+
+# Database
+sqlite3  # Built-in with Python
+
+# Global keyboard shortcuts
+pynput>=1.7.6
+
+# Audio processing
+librosa>=0.10.1
+audioread>=3.0.0
+
+# System utilities
+psutil>=5.9.0
+pathlib  # Built-in with Python
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: for better audio format support
+soundfile>=0.12.1
+
+# For cross-platform path handling
+pathlib2>=2.3.7; python_version < "3.4"
+
+# Threading and multiprocessing support
+threading  # Built-in
+queue  # Built-in
